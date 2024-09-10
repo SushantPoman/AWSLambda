@@ -38,4 +38,11 @@ public class PolicyDocument {
 		}
 	
 	}
+
+	@Override
+	public String toString() {
+		return "PolicyDocument [versionString=" + versionString + ", statements=" + statements + "]";
+	}
+	
+	
 }
